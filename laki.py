@@ -1,8 +1,10 @@
 def Main():
-    sum = 0
-    for i in range(0,25):
-        sum = i / i
-        if int(sum):
+    for i in range(2, 26):
+        ist_true = True
+        for j in range(2, int(i ** 0.5)+ 1):
+            if i % j == 0:
+                ist_true = False
+                break
+        if ist_true:
             print(i)
-
 Main()
