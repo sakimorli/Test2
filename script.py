@@ -7,6 +7,6 @@ def Main():
     list.append(text.split())
     for i in list:
         if i == was_es_Sein_soll:
-            print(list[i])
+            print(i)
 
 Main()
