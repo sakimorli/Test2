@@ -7,8 +7,4 @@ def Main():
                 break
         if ist_true:
             print(i)
-<<<<<<< HEAD
 Main()
-=======
-Main()
->>>>>>> 2567b634ee44b0943ca5cb71fb36620fa463db37
