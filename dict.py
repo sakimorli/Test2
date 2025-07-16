@@ -4,11 +4,11 @@ def Main():
     for list1 in list:
         frage = input(f"Welches Kind ist {list1}: ")
         dict[list1] = frage
-    inf = 0
-    parsed_frage = int(dict[list1])
+        parsed_frage = int(dict[list1])
+    inf =0
     for i in range (0, len(frage) + 1):
         if inf < parsed_frage:
             inf = dict[list1]
-        print(f"{list1} ist das älteste Kind in der Familie")
+            print(f"{list1} ist das älteste Kind in der Familie")
     print(dict)
 Main()
