@@ -9,6 +9,6 @@ def Main():
     for i in range (0, len(frage) + 1):
         if inf < parsed_frage:
             inf = dict[list1]
-        print(f"{dict[list1]} ist das älteste Kind in der Familie")
+        print(f"{list1} ist das älteste Kind in der Familie")
     print(dict)
 Main()
