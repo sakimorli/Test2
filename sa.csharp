@@ -1,0 +1,8 @@
+using Sy
+void Main()
+{
+    List<int> s = new List<int>();
+    s.add(2);
+    System.Console.WriteLine(s);
+}
+Main();
