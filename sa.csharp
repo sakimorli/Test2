@@ -1,4 +1,6 @@
-using Sy
+using System.Text.Json;
+using System.IO;
+
 void Main()
 {
     List<int> s = new List<int>();
