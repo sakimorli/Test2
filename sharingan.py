@@ -8,7 +8,6 @@ def Main():
                 print("schatten doppelgänger")
             elif lvl1 >= 0:
                 print("pause")
-                lvl1 += 100
             else:
                 print("fehler")
             lvl1 -= 15
