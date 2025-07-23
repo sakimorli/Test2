@@ -6,7 +6,7 @@ def Main():
                 print("rasengan")
             elif lvl1 < 100 and lvl1 >= 25:
                 print("schatten doppelgänger")
-            elif lvl1 <= 0:
+            elif lvl1 >= 0:
                 print("pause")
                 lvl1 += 100
             else:
